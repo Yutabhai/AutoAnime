@@ -13,10 +13,10 @@ LOG.setLevel(level=logging.INFO)
 
 headers = {'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:55.0) Gecko/20100101 Firefox/55.0',}
 
-API_ID = int(environ.get('API_ID', 45647)) #API ID
-API_HASH = environ.get('API_HASH', 'Your Api Id') #API HASH
-BOT_TOKEN = environ.get('BOT_TOKEN', 'Your Bot Token') #BOT TOKEN
-DATABASE_URL = environ.get('DATABASE_URL', 'Your MongoDb') #MONGO DB
+API_ID = int(environ.get('API_ID', 23902408)) #API ID
+API_HASH = environ.get('API_HASH', '6a36a4ef2f07d63aeba7b53b99c64d73') #API HASH
+BOT_TOKEN = environ.get('BOT_TOKEN', '7190718780:AAEoMKzvj9Mb16iipToTw8uuwCrhkth0yYY') #BOT TOKEN
+DATABASE_URL = environ.get('DATABASE_URL', 'mongodb+srv://pietar19sc:A0jqNJO96p3MQfOg@cluster0.467yujo.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0') #MONGO DB
 OWNER_ID = int(environ.get('OWNER_ID', None)) #OWNER ID
 MAIN_CHANNEL = int(environ.get('MAIN_CHANNEL', None))#YOUR MAIN CHANNEL ID
 ARCHIVE_CHANNEL = int(environ.get('ARCHIVE_CHANNEL', None))#YOUR ARCHIVE CHANNEL
