@@ -22,15 +22,15 @@ LINK = [
 BUTTONS_DEV = IKM(
     [
         [
-            IKB('ᴅᴇᴠᴇʟᴏᴘᴇʀ', url='https://t.me/sohailkhan_indianime'),
-            IKB('ɢɪᴛʜᴜʙ', url = 'https://github.com/soheru')
+            IKB('ᴅᴇᴠᴇʟᴏᴘᴇʀ', url='https://t.me/Anime_Bloodline'),
+            IKB('ɢɪᴛʜᴜʙ', url = 'https://t.me/Anime_Bloodline')
         ],
         [
-            IKB('ᴡᴇʙsɪᴛᴇ', url='https://soheru.in'),
-            IKB('ᴄʜᴀɴɴᴇʟ', url='https://t.me/aboutmesk'),
+            IKB('ᴡᴇʙsɪᴛᴇ', url='https://t.me/Anime_Bloodline'),
+            IKB('ᴄʜᴀɴɴᴇʟ', url='https://t.me/Anime_Bloodline'),
         ],
         [
-            IKB('ɪɴsᴛᴀɢʀᴀᴍ', url='https://instagram.com/soherusan'),
+            IKB('ɪɴsᴛᴀɢʀᴀᴍ', url='https://t.me/RarelySukuna'),
             IKB('ʜᴏᴍᴇ', 'call_start_or_go_back')
         ]
     ]
