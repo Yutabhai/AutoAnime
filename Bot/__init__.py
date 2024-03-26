@@ -19,7 +19,7 @@ BOT_TOKEN = environ.get('BOT_TOKEN', '7190718780:AAEoMKzvj9Mb16iipToTw8uuwCrhkth
 DATABASE_URL = environ.get('DATABASE_URL', 'mongodb+srv://pietar19sc:A0jqNJO96p3MQfOg@cluster0.467yujo.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0') #MONGO DB
 OWNER_ID = int(environ.get('7179837246', None)) #OWNER ID
 MAIN_CHANNEL = int(environ.get('-1001951273334', None))#YOUR MAIN CHANNEL ID
-ARCHIVE_CHANNEL = int(environ.get('ARCHIVE_CHANNEL', None))#YOUR ARCHIVE CHANNEL
+ARCHIVE_CHANNEL = int(environ.get('-1001692585152', None))#YOUR ARCHIVE CHANNEL
 MESSAGE_ID = int(environ.get('-1002059315034', None)) #SUB CHANNEL STATUS ID
 
 soheru = Client('SoheruBots', api_id=API_ID, api_hash=API_HASH, bot_token=BOT_TOKEN, plugins=dict(root="Bot/plugins"))
